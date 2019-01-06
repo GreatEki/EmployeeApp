@@ -29,7 +29,7 @@ public class ActorsDao {
 		
 	String DbUrl = "jdbc:mysql://localhost:3306/jdbcdemo?ssL=false";	
 	String username = "root";
-	String pass = "honourable_222";
+	String pass = "root";
 	
 	myCon = DriverManager.getConnection(DbUrl, username, pass);
 	
